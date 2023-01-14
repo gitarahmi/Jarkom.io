@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+
+    <title>Test Demensia</title>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm mb-4">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"> <img src="Asset/D-removebg-preview.png" alt="" width="50" height="50" /> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item me-3">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Services </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="consultation.html">Consultation</a></li>
+                <li><a class="dropdown-item"  href="appointment.html">Appointment</a></li>
+                <li><a class="dropdown-item" href="#">Medical Prescription</a></li>
+                <li><a class="dropdown-item active text-white" aria-current="true" href="Test Demensia.html">Test Demensia</a></li>
+              </ul>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item" id="sign_in">
+              <!-- BUTTON MODAL -->
+              <button type="button" class="btn btn-danger px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In</button>
+              <!-- MODAL -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="inputPassword5" class="form-label">Password</label>
+                          <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" />
+                          <div id="passwordHelpBlock" class="form-text word-break">Your password must be 8-20 characters long.</div>
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                          <label class="form-check-label" for="exampleCheck1">Remeber Me</label>
+                        </div>
+                        <div class="d-grid gap-2">
+                          <button class="btn btn-danger" type="submit">Sign In</button>
+                          <p class="text-center fw-light">Already Have An Acoount? <a href="Sign_Up.html">Sign Up</a></p>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF MODAL -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END OF NAV BAR -->
+
+    <!-- CONTENT 1 -->
+    <div class="container mb-5">
+      <h5 class="font-monospace ">Test Demensia</h5>
+      <hr class="border-bottom border-2 border-dark" />
+      <div>
+        <div class="card">
+          <div class="card-body gap-3">
+            <h5 class="card-title">Petunjuk</h5>
+            <p class="card-text">
+              <ol class="list-group list-group-numbered">
+                <li class="list-group-item">jarang sekali</li>
+                <li class="list-group-item">jarang</li>
+                <li class="list-group-item">pernah</li>
+                <li class="list-group-item">sering </li>
+                <li class="list-group-item">sangat sering</li>
+              </ol>
+          </div>
+        </div>
+        
+      </div>
+          <div class="container">
+          <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">5). Apakah pasien sulit melakukan aktivitas sehari-hari ?</label>
+            </div>
+            <div class="d-flex bd-highlight gap-5 flex-wrap">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">1
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">2
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3">3
+              <label class="form-check-label" for="radio3"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4">4
+              <label class="form-check-label" for="radio4"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5">5
+              <label class="form-check-label" for="radio5"></label>
+            </div>
+          </div>
+          </form>
+          <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">6). Apakah pasien sering mengulang percakapan sehari-hari ?</label>
+            </div>
+            <div class="d-flex bd-highlight gap-5 flex-wrap">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">1
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">2
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3">3
+              <label class="form-check-label" for="radio3"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4">4
+              <label class="form-check-label" for="radio4"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5">5
+              <label class="form-check-label" for="radio5"></label>
+            </div>
+          </div>
+        </form>
+        <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">7). Apakah pasien sering kesulitan mengingat waktu dan tempat ?</label>
+            </div>
+            <div class="d-flex bd-highlight gap-5 flex-wrap">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">1
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">2
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3">3
+              <label class="form-check-label" for="radio3"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4">4
+              <label class="form-check-label" for="radio4"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5">5
+              <label class="form-check-label" for="radio5"></label>
+            </div>
+          </div>
+        </form>
+        <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">8). Apakah pasien sering mengatakan hal yang sama berulang kali ?</label>
+            </div>
+            <div class="d-flex bd-highlight gap-5 flex-wrap">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">1
+              <label class="form-check-label" for="radio1"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">2
+              <label class="form-check-label" for="radio2"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3">3
+              <label class="form-check-label" for="radio3"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4">4
+              <label class="form-check-label" for="radio4"></label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5">5
+              <label class="form-check-label" for="radio5"></label>
+            </div>
+          </div>
+        </form>
+        </div>
+        <br>
+          <nav aria-label="...">
+          <ul class="pagination pagination-sm">
+            <li class="page-item" aria-current="page">
+              <span><a class="page-link" href="Test Demensia.html">1</a></span>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+            
+          </ul>
+          </nav>
+      </div> 
+    </div>
+
+    <!-- END OF CONTENT 1 -->
+
+    <!-- CONTENT 2 -->
+    <div class="container mt-3">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Submit</button>
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5" id="staticBackdropLabel">Apakah anda ingin mengumpulkan jawaban anda?</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Pastikan anda sudah mengisi seluruh soal
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <a type="button" class="btn btn-primary" class="page-link" href="index.html">Kumpulkan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Informasi tambahan-->
+      <div class="card">
+        <div class="card-body gap-3">
+          <h5 class="card-title">Informasi Tambahan</h5>
+          <p class="card-text">
+            <ol class="list-group">
+              <li class="list-group">Diagnosis Demensia ada beberapa pemeriksaan tambahan yang meliputi:</li>
+            </ol>
+            <ol>
+              <li class="list-group-item"><h6>1. Pemeriksaan saraf</h6>
+                <p>Pemeriksaan saraf bertujuan untuk menilai kekuatan otot serta melihat refleks tubuh.</p></li>
+              <li class="list-group-item"><h6>2. Pemeriksaan mental</h6>
+                <p>Pemeriksaan ini dilakukan dengan metode mini-mental state examination (MMSE), yaitu serangkaian pertanyaan yang akan diberikan nilai oleh dokter untuk mengukur seberapa besar gangguan kognitif yang dialami.</p></li>
+              <li class="list-group-item"><h6>3. Tes fungsi luhur</h6> 
+                <p>Tes ini bertujuan untuk mengukur kemampuan berpikir seseorang, misalnya dengan meminta pasien berhitung mundur dari angka 100 atau menggambar jarum jam untuk menunjukkan waktu tertentu </p></li>
+            </ol>
+        </div>
+      </div>
+    </div>
+    <!-- END OF CONTENT 2 -->
+
+    <!-- FOOTER -->
+    <footer class="mt-3">
+      <div class="container text-center border-top border-dark">
+        <h3 class="fw-bold font-monospace mt-4"><img src="asset/D-removebg-preview.png" alt="" width="50" height="50" /> Demen-Care</h3>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

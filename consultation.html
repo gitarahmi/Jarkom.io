@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <title>Consultation</title>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm mb-4">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"> <img src="Asset/D-removebg-preview.png" alt="" width="50" height="50" /> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item me-3">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Services </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item active text-white" aria-current="true" href="consultation.html">Consultation</a></li>
+                <li><a class="dropdown-item" href="appointment.html">Appointment</a></li>
+                <li><a class="dropdown-item" href="#">Medical Prescription</a></li>
+                <li><a class="dropdown-item" href="Test Demensia.html">Test Demensia</a></li>
+              </ul>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item" id="sign_in">
+              <!-- BUTTON MODAL -->
+              <button type="button" class="btn btn-danger px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In</button>
+              <!-- MODAL -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="inputPassword5" class="form-label">Password</label>
+                          <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" />
+                          <div id="passwordHelpBlock" class="form-text word-break">Your password must be 8-20 characters long.</div>
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                          <label class="form-check-label" for="exampleCheck1">Remeber Me</label>
+                        </div>
+                        <div class="d-grid gap-2">
+                          <button class="btn btn-danger type="submit">Sign In</button>
+                          <p class="text-center fw-light">Already Have An Acoount? <a href="Sign_Up.html">Sign Up</a></p>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF MODAL -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END OF NAV BAR -->
+
+    <!-- CONTENT 1 -->
+    <div class="container d-none d-lg-block">
+      <div id="carouselExampleInterval" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 px-5">
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="https://img.freepik.com/free-photo/smiling-asian-doctor-female-nurse-holding-clipboard-pen-wearing-uniform-with-gloves-writing-pati_1258-83340.jpg?w=1380&t=st=1667878866~exp=1667879466~hmac=2c4398fa59a68bc54841f46417f188e22d37bfd88537278f7b17987a6886ed14"
+                    alt="..."
+                    height="200px"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold font-monospace">Doctor A</h5>
+                    <p class="card-text fw-light">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates itaque ratione. Exercitationem minus voluptatibus atque dolore commodi quia reiciendis, quae ut architecto tempore ipsum qui asperiores id nihil
+                      autem!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="https://img.freepik.com/premium-photo/smiling-female-doctor-headscarf-with-offering-gesture-looking-camera-with-space_8595-25961.jpg" alt="..." height="200px" />
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold font-monospace">Doctor B</h5>
+                    <p class="card-text fw-light">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit modi, saepe illo fugiat possimus ab vel laudantium, dolorum obcaecati commodi mollitia. Sunt voluptas repellat, incidunt architecto omnis nobis atque
+                      ab!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 fw-bold">
+                  <img
+                    src="https://img.freepik.com/free-photo/smiling-asian-male-doctor-pointing-upwards_1262-18321.jpg?t=st=1667878859~exp=1667879459~hmac=e5b8aa1617fa951aadc613ec070097eca00c41486c6e580d19b98ef933dd5856"
+                    alt="..."
+                    height="200px"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold font-monospace">Doctor C</h5>
+                    <p class="card-text fw-light">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, quis sint. Aperiam, facilis quam ad adipisci ipsam pariatur voluptate porro, temporibus vel ullam explicabo nobis quis ex deleniti laborum magnam!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 px-5">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="https://img.freepik.com/free-photo/asian-male-medical-doctor_1098-19688.jpg?w=1380&t=st=1667879118~exp=1667879718~hmac=0ab8745715c238420972a84a629cd6208d886371a0cee9da4a4ba5e149d927c2" alt="..." height="200px" />
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold font-monospace">Doctor D</h5>
+                    <p class="card-text fw-light">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates itaque ratione. Exercitationem minus voluptatibus atque dolore commodi quia reiciendis, quae ut architecto tempore ipsum qui asperiores id nihil
+                      autem!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="https://img.freepik.com/premium-photo/portrait-young-asian-male-doctor-blue-background_296537-5812.jpg" alt="..." height="200px" />
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold font-monospace">Doctor E</h5>
+                    <p class="card-text fw-light">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit modi, saepe illo fugiat possimus ab vel laudantium, dolorum obcaecati commodi mollitia. Sunt voluptas repellat, incidunt architecto omnis nobis atque
+                      ab!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="https://img.freepik.com/premium-photo/portrait-asian-female-doctor-with-friendly-smiling-face_296537-158.jpg" alt="..." height="200px" />
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold font-monospace">Doctor F</h5>
+                    <p class="card-text fw-light">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt neque eos modi. Nisi assumenda repudiandae nulla aperiam illo sit amet exercitationem, quae laudantium quasi consequatur voluptatum saepe facilis
+                      perspiciatis dolore.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 px-5">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="https://img.freepik.com/premium-photo/image-young-asian-doctor-working-clinic_296537-5215.jpg?w=1380" alt="..." height="200px" />
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold font-monospace">Doctor G</h5>
+                    <p class="card-text fw-light">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates itaque ratione. Exercitationem minus voluptatibus atque dolore commodi quia reiciendis, quae ut architecto tempore ipsum qui asperiores id nihil
+                      autem!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="https://img.freepik.com/free-photo/front-view-doctor-smiling-with-copy-space_23-2148728410.jpg?w=1380&t=st=1667879575~exp=1667880175~hmac=02f8bb6e81dd310f46b1db93ef598859fb8b3a844b9f03da08c4ffbfd3b1cd85"
+                    alt="..."
+                    height="200px"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold font-monospace">Doctor H</h5>
+                    <p class="card-text fw-light">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit modi, saepe illo fugiat possimus ab vel laudantium, dolorum obcaecati commodi mollitia. Sunt voluptas repellat, incidunt architecto omnis nobis atque
+                      ab!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="https://img.freepik.com/premium-photo/smiling-asian-woman-physician-white-coat_9083-2472.jpg" alt="..." height="200px" />
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold font-monospace">Doctor I</h5>
+                    <p class="card-text fw-light">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt neque eos modi. Nisi assumenda repudiandae nulla aperiam illo sit amet exercitationem, quae laudantium quasi consequatur voluptatum saepe facilis
+                      perspiciatis dolore.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <p class="text-center mt-4 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id recusandae nobis pariatur facere aliquid vitae quod blanditiis, nisi aspernatur assumenda.</p>
+    </div>
+
+    <!-- LAYOUT FOR SMALL DISPLAY -->
+    <div class="container d-block d-lg-none">
+      <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card bg-light text-black">
+              <img
+                src="https://img.freepik.com/free-photo/smiling-asian-doctor-female-nurse-holding-clipboard-pen-wearing-uniform-with-gloves-writing-pati_1258-83340.jpg?w=1380&t=st=1667878866~exp=1667879466~hmac=2c4398fa59a68bc54841f46417f188e22d37bfd88537278f7b17987a6886ed14"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title fw-bold font-monospace">Doctor A</h5>
+                <p class="card-text fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, voluptatibus.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card bg-light text-black">
+              <img src="https://img.freepik.com/premium-photo/smiling-female-doctor-headscarf-with-offering-gesture-looking-camera-with-space_8595-25961.jpg" class="card-img" alt="..." />
+
+              <div class="card-img-overlay">
+                <h5 class="card-title fw-bold font-monospace">Doctor B</h5>
+                <p class="card-text fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, aliquam?</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card bg-light text-black">
+              <img
+                src="https://img.freepik.com/free-photo/smiling-asian-male-doctor-pointing-upwards_1262-18321.jpg?t=st=1667878859~exp=1667879459~hmac=e5b8aa1617fa951aadc613ec070097eca00c41486c6e580d19b98ef933dd5856"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title fw-bold font-monospace">Doctor C</h5>
+                <p class="card-text fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, repellendus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <p class="text-center mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quis provident necessitatibus sint error, adipisci delectus placeat? Maiores, assumenda sit?</p>
+    </div>
+    <!-- END OF CONTENT 1 -->
+
+    <!-- CONTENT 2 -->
+
+    <div class="container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- END OF CONTENT 2 -->
+
+    <!-- FOOTER -->
+    <footer class="mt-3">
+      <div class="container text-center border-top border-dark">
+        <h3 class="fw-bold font-monospace mt-4"><img src="asset/D-removebg-preview.png" alt="" width="50" height="50" /> Demen-Care</h3>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
